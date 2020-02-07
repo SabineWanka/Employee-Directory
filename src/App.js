@@ -1,49 +1,57 @@
 import React from "react";
-import List from "./components/list";
+import Wrapper from "./components/Wrapper";
+import Title from "./componets/Title";
+import EmployeeCard from "./components/EmployeeCard";
+import employee from "./employee.json";
 
-
-const employees = [
-    {
-        id: 1,
-        firstName = "James",
-        lastName = "Jonson",
-        mailAdresse = "jamesjonson@gogglemail.com",
-        engineer = true
-    },
-    {
-        id: 2,
-        firstName = "James",
-        lastName = "McAvoy",
-        mailAdresse = "james.mcavoy@yahoo.com",
-        engineer = false
-    },
-    {
-        id: 3,
-        firstName = "Jonas",
-        lastName = "Miller",
-        mailAdresse = "jonasmiller@gmail.com",
-        engineer = false
-    },
-    {
-        id: 4,
-        firstName = "Rebecca",
-        lastName = "Miller",
-        mailAdresse = "rem@gmail.com",
-        engineer = true
-    },
-    {
-        id: 5,
-        firstName = "James",
-        lastName = "Peterson",
-        mailAdresse = "peterson@gmail.com",
-        engineer = true
-    },
-
-]
 
 
 function App() {
-    return <List employees={employees} />;
+    return (
+        <Wrapper>
+            <Title>Employee Directory</Title>
+            <EmployeeCard
+
+                firstName={employee[0].firstName}
+                lastName={employee[0].lastName}
+                image={employee[0].image}
+                mailAdresse={employee[0].mailAdresse}
+                engineer={employee[0].engineer}
+            />
+            <EmployeeCard
+
+                firstName={employee[1].firstName}
+                lastName={employee[1].lastName}
+                image={employee[1].image}
+                mailAdresse={employee[1].mailAdresse}
+                engineer={employee[1].engineer}
+            />
+            <EmployeeCard
+
+                firstName={employee[2].firstName}
+                lastName={employee[2].lastName}
+                image={employee[2].image}
+                mailAdresse={employee[2].mailAdresse}
+                engineer={employee[2].engineer}
+            />
+            <EmployeeCard
+
+                firstName={employee[3].firstName}
+                lastName={employee[3].lastName}
+                image={employee[3].image}
+                mailAdresse={employee[3].mailAdresse}
+                engineer={employee[3].engineer}
+            />
+            <EmployeeCard
+
+                firstName={employee[4].firstName}
+                lastName={employee[4].lastName}
+                image={employee[4].image}
+                mailAdresse={employee[4].mailAdresse}
+                engineer={employee[4].engineer}
+            />
+        </Wrapper>
+    );
 }
 
 export default App;

@@ -6,9 +6,9 @@ function List(props) {
 
     return (
         <ul className="list-group">
-            {props.groceries.map(item => (
-                <li className="list-group-item" key={item.id}>
-                    {item.name}
+            {props.employees.map(employee => (
+                <li className="list-group-item" key={employee.id}>
+                    {employee.name}
                 </li>
             ))}
         </ul>

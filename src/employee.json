@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "firstName": "James",
+        "lastName": "Jonson",
+        "image": "https://st3.depositphotos.com/1007566/13129/v/1600/depositphotos_131295836-stock-illustration-businessman-character-avatar-icon.jpg",
+        "mailAdresse": "jamesjonson@gogglemail.com",
+        "engineer": true
+    },
+    {
+        "id": 2,
+        "firstName": "James",
+        "lastName": "McAvoy",
+        "image": "https://i1.pngguru.com/preview/137/834/449/cartoon-cartoon-character-avatar-drawing-film-ecommerce-facial-expression-png-clipart.jpg",
+        "mailAdresse": "james.mcavoy@yahoo.com",
+        "engineer": false
+    },
+    {
+        "id": 3,
+        "firstName": "Jonas",
+        "lastName": "Miller",
+        "image": "https://cdn2.vectorstock.com/i/1000x1000/49/86/man-character-face-avatar-in-glasses-vector-17074986.jpg",
+        "mailAdresse": "jonasmiller@gmail.com",
+        "engineer": false
+    },
+    {
+        "id": 4,
+        "firstName": "Rebecca",
+        "lastName": "Miller",
+        "image": "https://cdn2.vectorstock.com/i/1000x1000/28/66/young-and-beautiful-woman-cartoon-design-vector-9692866.jpg",
+        "mailAdresse": "rem@gmail.com",
+        "engineer": true
+    },
+    {
+        "id": 5,
+        "firstName": "James",
+        "lastName": "Peterson",
+        "image": "https://cdn2.vectorstock.com/i/1000x1000/49/86/man-character-face-avatar-in-glasses-vector-17074986.jpg",
+        "mailAdresse": "peterson@gmail.com",
+        "engineer": true
+    }
+]
